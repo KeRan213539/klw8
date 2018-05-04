@@ -28,7 +28,7 @@ favicon: /favicon.png
 ## If your site' url is 'http://yoursite.com/blog', set root_url as '/blog/'
 ## 网站若存放在子目录，请按上面格式填写
 ## https://hexo.io/docs/configuration.html#URL
-root_url: https://klw8.top
+root_url: https://klw8.top/
 
 # Year of Site Creation | 网站成立年份
 since: 2018

@@ -7,7 +7,7 @@ title: klw8
 subtitle:
 description: Java,Spring, Web, Http2, Js
 keywords: Java,Spring, Web, Http2, Js
-author: klw
+author: 邪影oO
 language: zh-Hans
 timezone: Asia/Shanghai
 
@@ -73,7 +73,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: Yelee
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -81,3 +81,9 @@ deploy:
   type: git
   repository: https://github.com/KeRan213539/keran213539.github.io.git
   branch: master
+  
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
