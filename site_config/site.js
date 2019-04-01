@@ -9,24 +9,9 @@ export default {
     pageMenu: [
       {
         key: 'home', // 用作顶部菜单的选中
-        text: 'HOME',
-        link: '/en-us/index.html',
-      },
-      {
-        key: 'docs',
-        text: 'DOCS',
-        link: '/en-us/docs/demo1.html',
-      },
-      {
-        key: 'blog',
         text: 'BLOG',
         link: '/en-us/blog/index.html',
-      },
-      {
-        key: 'community',
-        text: 'COMMUNITY',
-        link: '/en-us/community/index.html',
-      },
+      }
     ],
     disclaimer: {
       title: 'Disclaimer',
@@ -55,41 +40,22 @@ export default {
         {
           text: 'Blog',
           link: '/en-us/blog/index.html',
-        },
-        {
-          text: 'Community',
-          link: '/en-us/community/index.html',
-        },
+        }
       ],
     },
-    copyright: 'Copyright © 2018 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
+    copyright: 'Copyright © 2019 klw8.top',
   },
   'zh-cn': {
     pageMenu: [
       {
         key: 'home',
-        text: '首页',
-        link: '/zh-cn/index.html',
-      },
-      {
-        key: 'docs',
-        text: '文档',
-        link: '/zh-cn/docs/demo1.html',
-      },
-      {
-        key: 'blog',
         text: '博客',
         link: '/zh-cn/blog/index.html',
-      },
-      {
-        key: 'community',
-        text: '社区',
-        link: '/zh-cn/community/index.html',
-      },
+      }
     ],
     disclaimer: {
       title: '免责声明',
-      content: '免责声明的具体内容',
+      content: '免责声明的具体内容111',
     },
     documentation: {
       title: '文档',
@@ -114,13 +80,9 @@ export default {
         {
           text: '博客',
           link: '/zh-cn/blog/index.html',
-        },
-        {
-          text: '社区',
-          link: '/zh-cn/community/index.html',
-        },
+        }
       ],
     },
-    copyright: 'Copyright © 2018 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
+    copyright: 'Copyright © 2019 klw8.top',
   },
 };
